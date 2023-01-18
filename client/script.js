@@ -80,7 +80,7 @@ const handleSubmit = async (e) => {
   
   //fetch data from server -> the bot's response
 
-  const response = await fetch('http://localhost:4000', {
+  const response = await fetch('https://ai-helper-y2ws.onrender.com', {
     method: 'POST',
     headers:{
       'Content-Type' : 'application/json'
